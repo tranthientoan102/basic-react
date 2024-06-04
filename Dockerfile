@@ -9,4 +9,4 @@ COPY package.json /react-docker/
 
 RUN npm install
 
-ENTRYPOINT CMD ["npm", "start"]
+ENTRYPOINT ["npm", "start"]
